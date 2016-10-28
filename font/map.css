@@ -1,0 +1,93 @@
+#container{
+    height:100%;
+   // width:1000px;
+    width:100%;
+    float:left;
+}
+
+.pub{
+    position: absolute;
+    overflow: auto;
+    height:100%;
+    width:300px;
+//    background:red;
+//    background:url(img/bg_w.png);
+
+    background:url(img/bg_a.png) no-repeat;
+    background-color:rgba(119, 136, 153, 0.6) ;
+    margin-right:0px;
+    float:right;
+    right:0px;
+}
+
+.whitefont{
+    color:white;
+}
+
+
+
+.pub .found{
+ //   font-weight:bold;
+    margin-left:25px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 3px;
+    padding-top: 2px;
+    margin-bottom:10px;
+}
+
+.pub .name{
+    margin-left:25px;
+}
+
+.pub .commont{
+    margin-left:30px;
+    margin-bottom:10px;
+}
+
+//每个tab下面有条横线
+.nav-tabs{
+    border-bottom: 1px solid #ddd;
+}
+
+
+.control-panel {
+        position: absolute;
+        top: 30px;
+        //right: 20px;
+        right:350px;
+    }
+
+.control-entry {
+    //width: 280px;
+    background-color: rgba(119, 136, 153, 0.8);
+    font-family: fantasy, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+    overflow: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.control-input {
+    margin-left: 120px;
+}
+
+.control-input input[type="text"] {
+    width: 160px;
+}
+
+.control-panel label {
+    float: left;
+    width: 120px;
+}
+
+#transfer-panel {
+    position: absolute;
+    background-color: white;
+    max-height: 80%;
+    overflow-y: auto;
+    top: 30px;
+    left: 20px;
+    width: 250px;
+}
